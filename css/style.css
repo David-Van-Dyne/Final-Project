@@ -1,15 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: righteous, serif;
-  font-weight: 400;
+  box-sizing: border-box;
 }
 
 body {
+  font-family: righteous, serif;
+  font-weight: 400;
   background-color: white;
-  box-sizing: border-box;
   line-height: 1.6;
 }
+
+/* Nav Bar */
 
 li {
   list-style: none;
@@ -28,10 +30,6 @@ li {
   box-shadow: 1px 1px 6px #4b4b4b;
 }
 
-.logo a:hover {
-  transform: none;
-  opacity: 100%;
-}
 
 nav li {
   display: inline-block;
@@ -39,25 +37,19 @@ nav li {
 }
 
 li a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
+  color: #4b4;
   text-decoration: none;
   text-shadow: none;
 }
 
-.product:hover {
-  transform: scale(1.2);
-  text-decoration: 1px underline black;
-}
-
 .about:hover {
   transform: scale(1.2);
-  text-decoration: 1px underline black;
+  text-decoration: underline black 1px;
 }
 
 .home:hover {
   transform: scale(1.2);
-  text-decoration: 1px underline black;
+  text-decoration: underline black 1px;
 }
 
 button {
@@ -65,14 +57,14 @@ button {
   padding: 10px 15px;
   border-radius: 8.5px;
   background-color: white;
-  color: black;
+  color: #4b4;
   border: 1px solid #606462;
   box-shadow: 3px 3px 3px black;
 }
 
 .contact button:hover {
   cursor: pointer;
-  color: white;
+  color: #4b4;
   background-color: black;
 }
 
@@ -80,6 +72,8 @@ button {
   transform: scale(.9);
   box-shadow: none;
 }
+
+/* Hero Section */
 
 .hero_main {
   background-image: url(/Images/new_sunflower_section.jpg);
@@ -89,7 +83,6 @@ button {
 }
 
 .heading {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
   top: 25%;
   left: 1%;
@@ -101,6 +94,7 @@ button {
   font-size: 50px;
   color: #4b4;
   text-decoration: underline black;
+  text-shadow: 1px 1px 0 #000;
 }
 
 .heading span {
@@ -110,6 +104,7 @@ button {
 .heading button {
   position: relative;
   left: 1%;
+  color: black;
   background-color: #4b4;
   padding: 20px 30px;
   font-size: 16px;
@@ -124,6 +119,8 @@ button {
   transform: scale(1);
 }
 
+/* Study Section */
+
 .study {
   width: 75%;
   margin: auto;
@@ -136,10 +133,7 @@ button {
   text-align: center;
 }
 
-.row1 {
-  display: flex;
-  justify-content: center;
-}
+/* Icon Section */
 
 .columnIcon i {
   display: flex;
@@ -164,6 +158,12 @@ hr {
   color: #4b4;
 }
 
+/* Pictures and Info */
+
+.row1 {
+  display: flex;
+  justify-content: center;
+}
 
 .row {
   display: flex;
@@ -202,7 +202,9 @@ hr {
   padding: 0 2%;
 }
 
-
+.column .heading {
+  color: #4b4;
+}
 
 .img1_wrapper {
   display: flex;
@@ -274,8 +276,7 @@ hr {
   clear: both;
 }
 
-
-
+/* Bottom Statement */
 
 .bottom_main {
   width: 100%;
@@ -297,6 +298,8 @@ hr {
   width: 75%;
   margin: auto;
 }
+
+/* Video and Social Media */
 
 .bottom_container {
   height: 400px;
