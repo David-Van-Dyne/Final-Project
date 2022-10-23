@@ -57,10 +57,9 @@ button {
   font-family: righteous, sans-serif;
   padding: 10px 15px;
   border-radius: 8.5px;
-  background-color: white;
   color: #4b4;
-  border: 1px solid #606462;
-  box-shadow: 3px 3px 3px #4b4b4b;
+  background-color: lightgrey;
+  box-shadow: 1px 1px 8px #4b4b4b;
 }
 
 .contact button:hover {
@@ -76,7 +75,7 @@ button {
 /* Hero Section */
 
 .hero_main {
-  background-image: url(/Images/new_sunflower_section.jpg);
+  background-image: url(/images/new_sunflower_section.jpg);
   background-size: cover;
   background-position: center;
   height: 850px;
@@ -105,9 +104,10 @@ button {
   position: relative;
   left: 1%;
   color: #4b4;
-  background-color: white;
+  background-color: lightgray;
   padding: 20px 30px;
-  font-size: 16px;
+  font-size: 20px;
+  box-shadow: 1px 1px 8px #4b4b4b;
 }
 
 .heading button:hover {
@@ -160,7 +160,7 @@ hr {
 
 /* Pictures and Info */
 
-.row1 {
+.row1 { 
   display: flex;
   justify-content: center;
 }
@@ -169,26 +169,6 @@ hr {
   display: flex;
   width: 100%;
   align-items: stretch;
-}
-
-.row2 {
-  display: flex;
-  width: 100%;
-  align-items: stretch;
-
-}
-
-.row3 {
-  display: flex;
-  width: 100%;
-  align-items: stretch;
-}
-
-.row4 {
-  display: flex;
-  width: 100%;
-  align-items: stretch;
-
 }
 
 .column {
@@ -206,62 +186,14 @@ hr {
   color: #4b4;
 }
 
-.img1_wrapper {
+.img_wrapper {
   display: flex;
   justify-content: center;
   width: 50%;
   text-align: center;
 }
 
-.img2_wrapper {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 50%;
-}
-
-.img3_wrapper {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 50%;
-}
-
-.img4_wrapper {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 50%;
-}
-
-.img1 {
-  display: block;
-  margin: auto;
-  overflow: hidden;
-  height: 320px;
-  width: 320px;
-  border-radius: 50%;
-}
-
-.img2 {
-  display: block;
-  margin: auto;
-  overflow: hidden;
-  height: 320px;
-  width: 320px;
-  border-radius: 50%;
-}
-
-.img3 {
-  display: block;
-  margin: auto;
-  overflow: hidden;
-  height: 320px;
-  width: 320px;
-  border-radius: 50%;
-}
-
-.img4 {
+.img {
   display: block;
   margin: auto;
   overflow: hidden;
@@ -279,7 +211,7 @@ hr {
 /* Bottom Statement */
 
 .bottom_main {
-  background-image: url(/Images/Buffalo.jpg);
+  background-image: url(/images/Buffalo.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -412,7 +344,6 @@ hr {
 }
 
 .contact_container {
-  background-color: whitesmoke;
   color: #4b4;
   width: 50%;
   height: 28em;
@@ -420,28 +351,35 @@ hr {
   padding: 0.5%;
 }
 
+:placeholder-shown {
+  font-family: righteous, sans-serif;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #4b4b4b;
+  background-color: whitesmoke;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family: righteous, sans-serif;
+  font-size: 16px;
 }
 
 input[type=submit] {
   width: 50%;
-  background-color: white;
+  background-color: lightgrey;
   color: #4b4;
   padding: 14px 20px;
   margin: 8px auto;
-  border: 1px solid #4b4b4b;
   border-radius: 4px;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  box-shadow: 3px 3px 3px #4b4b4b
+  box-shadow: 1px 1px 8px #4b4b4b;
+  font-family: righteous, sans-serif;
+  font-size: 18px;
 }
 
 input[type=submit]:hover {
@@ -454,8 +392,12 @@ textarea {
   margin: 8px auto;
   padding: 12px;
   box-sizing: border-box;
-  border: 1px solid #4b4b4b;
+  background-color: whitesmoke;
   border-radius: 4px;
   font-size: 16px;
   resize: vertical;
+}
+
+.contact {
+  padding-top: 10%;
 }
