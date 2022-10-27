@@ -54,7 +54,7 @@ li a:hover {
 /* Hero Section */
 
 .hero_main {
-  background-image: url(/images/new_sunflower_section.jpg);
+  background-image: url(../images/new_sunflower_section.jpg);
   background-size: cover;
   background-position: center;
   height: 850px;
@@ -194,7 +194,7 @@ hr {
 /* Bottom Statement */
 
 .bottom_main {
-  background-image: url(/images/Buffalo.jpg);
+  background-image: url(../images/Buffalo.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
