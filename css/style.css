@@ -60,6 +60,13 @@ li a:hover {
   height: 850px;
 }
 
+.hero_main div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
 .hero_main h1 {
   text-decoration: none;
 }
